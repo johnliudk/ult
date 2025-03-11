@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saving the Limping</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="container">
+			<div class="center">
+				<h2 class="text-center">Unified Locomotion Transformer with Simultaneous Sim-to-Real Transfer for Quadrupeds</h2>
+				<br>
+				<div class="row authors justify-content-center text-center lead">
+					<div class="col">
+						<p>Dikai Liu<sup>1, 2</sup></p>
+					</div>
+					<div class="col">
+						<p>Tianwei Zhang<sup>2</sup></p>
+					</div>
+					<div class="col">
+						<p>Jianxiong Yin<sup>1</sup></p>
+					</div>
+					<div class="col">
+						<p>Simon See<sup>1, 2, 3</sup></p>
+					</div>
+				</div>
+				<div class="row affiliations justify-content-center text-center text-secondary">
+					<div class="col-md-auto">
+						<p><sup>1</sup>NVIDIA AI Technology Centre (NVAITC)</p>
+					</div>
+					<div class="col-md-auto">
+						<p><sup>2</sup>Nanyang Technological University</p>
+					</div>
+					<div class="col-md-auto">
+						<p><sup>3</sup>Coventry University</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- <div class="container" style="font-size: 20px;">
+			<div class="row justify-content-center text-center">
+				<p>
+					<a href="https://arxiv.org/abs/2210.00474">Paper</a>
+				</p>
+			</div>
+		</div> -->
+		<br>
+		<div class="container text-center">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/XgN5FRk2DTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<br>
+		<div class="container">
+			<h3 class="text-center mb-4">Abstract</h3>
+			<p>Quadrupeds have gained rapid advancement in their capability of traversing across complex terrains. The adoption of deep Reinforcement Learning (RL), transformers and various knowledge transfer techniques can greatly reduce the sim-to-real gap. However, the classical teacher-student framework commonly used in existing locomotion policies requires a pre-trained teacher and leverages the privilege information to guide the student policy. With the implementation of large-scale models in robotics controllers, especially transformers-based ones, this knowledge distillation technique starts to show its weakness in efficiency, due to the requirement of multiple supervised stages. In this paper, we propose Unified Locomotion Transformer (ULT), a new transformer-based framework to unify the processes of knowledge transfer and policy optimization in a single network while still taking advantage of privilege information. The policies are optimized with reinforcement learning, next state-action prediction, and action imitation, all in just one training stage, to achieve zero-shot deployment. Evaluation results demonstrate that with ULT, optimal teacher and student policies can be obtained at the same time, greatly easing the difficulty in knowledge transfer, even with complex transformer-based models.</p>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
